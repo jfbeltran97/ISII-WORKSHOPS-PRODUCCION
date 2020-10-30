@@ -1,64 +1,113 @@
 package ec.edu.espol.workshops.second;
 
+/**
+ * This class is used to create a customer.
+ * @author Ana Carrión
+ *
+ */
 public class Customer {
-	public static final char MALE = 'M';
-	public static final char FEMALE = 'F';
-	public static final int MAX_AGE = 80;
-
-	private int age;
-	private char sex;
-	private boolean isMarried;
-	private String license;
-	
-	public Customer(int age, char sex, boolean isMarried, String license) throws IllegalArgumentException {
-		if (age > MAX_AGE || !Validator.isLicenseValid(license))
-			throw new IllegalArgumentException("Customer data is not valid");
-		this.age  = age;
-		this.sex = sex;
-		this.isMarried = isMarried;
-		this.license = license;
+  public static final char MALE = 'M';
+  public static final char FEMALE = 'F';
+  public static final int MAX_AGE = 80;
+  
+  private int age;
+  private char sex;
+  private boolean isMarried = false;
+  private String license = "";
+  
+  public Customer(int age, char sex, boolean isMarried, String license) throws Exception {
+    if (age > MAX_AGE || !Validator.isLicenseValid(license)) {
+      throw new IllegalArgumentException("Customer data is not valid");
+    }
+    this.age  = age;
+    this.sex = sex;
+    this.isMarried = isMarried;
+    this.license = license;
+  }
+  
+  /**
+   * Getter
+   * 
+   * @return The age of the customer.
+   */
+  public int getAge() {
+    return age;
+  }
+  
+  /**
+   * Setter 
+   * 
+   * @param age It is the age of the customer.
+   */
+  public void setAge(int age) {
+    if (age > 0) {
+      this.age = age;
+    }
+    }
+  }
+  
+  /**
+   * Getter
+   * 
+   * @return The sex of the customer.
+   */
+  public char getSex() {
+    return sex;
+  }
+  
+  /**
+   * Setter 
+   * 
+   * @param sex It is the sex of the customer.
+   */
+  public void setSex(char sex) {
+    char upperCaseSex = Character.toUpperCase(sex);
+	if (upperCaseSex == MALE || upperCaseSex == FEMALE) {
+	  this.sex = sex;
 	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		if (age > 0) this.age = age;
-	}
-
-	public char getSex() {
-		return sex;
-	}
-
-	public void setSex(char sex) {
-		char upperCaseSex = Character.toUpperCase(sex);
-		if (upperCaseSex == MALE || upperCaseSex == FEMALE)
-			this.sex = sex;
-	}
-
-	public boolean isMarried() {
-		return isMarried;
-	}
-
-	public void setMarried(boolean isMarried) {
-		this.isMarried = isMarried;
-	}
-	
-	public boolean ageBetween(int lowerBound, int upperBound) {
-		return this.age >= lowerBound && this.age < upperBound;
-	}
-	
-	public boolean isMale() {
-		return this.sex == MALE;
-	}
-	
-	public boolean isFemale() {
-		return this.sex == FEMALE;
-	}
-	
-	public boolean isValid() {
-		return this.age <= MAX_AGE && Validator.isLicenseValid(this.license);
-	}
-	
+  }
+  
+  /**
+   * Getter
+   * 
+   * @return true if the customer is married, false otherwise.
+   */
+  public boolean isMarried() {
+    return isMarried;
+  }
+  
+  public void setMarried(boolean isMarried) {
+    this.isMarried = isMarried;
+  }
+  
+  public boolean ageBetween(int lowerBound, int upperBound) {
+    return this.age >= lowerBound && this.age < upperBound;
+  }
+  
+  /**
+   * Define what is the gender of the customer
+   * 
+   * @return true if the customer is male, false otherwise.
+   */
+  public boolean isMale() {
+    return this.sex == MALE;
+  }
+  
+  /**
+   * Define what is the gender of the customer
+   * 
+   * @return true if the customer is female, false otherwise.
+   */
+  public boolean isFemale() {
+    return this.sex == FEMALE;
+  }
+  
+  /**
+   * Check if the customer meets the requirements
+   * 
+   * @return true if the customer meets the requirements, false otherwise.
+   */
+  public boolean isValid() {
+    return this.age <= MAX_AGE && Validator.isLicenseValid(this.license);
+  }	
 }
