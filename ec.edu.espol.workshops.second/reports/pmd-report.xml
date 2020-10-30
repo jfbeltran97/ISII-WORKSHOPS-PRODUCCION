@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2020-10-29T20:27:26.379">
+<file name="src/main/java/ec/edu/espol/workshops/second/CarInsurance.java">
+<violation beginline="3" endline="20" begincolumn="0" endcolumn="0" rule="ClassNamingConventions" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#classnamingconventions" priority="1">
+ClassNamingConventions: The utility class name 'CarInsurance' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+<violation beginline="3" endline="20" begincolumn="0" endcolumn="0" rule="ClassNamingConventions" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#classnamingconventions" priority="1">
+ClassNamingConventions: The utility class name 'CarInsurance' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+<violation beginline="3" endline="20" begincolumn="0" endcolumn="0" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+ClassWithOnlyPrivateConstructorsShouldBeFinal: A class which only has private constructors should be final
+</violation>
+<violation beginline="3" endline="20" begincolumn="0" endcolumn="0" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+ClassWithOnlyPrivateConstructorsShouldBeFinal: A class which only has private constructors should be final
+</violation>
+<violation beginline="3" endline="20" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="3" endline="20" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="10" endline="19" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="10" endline="19" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like c
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+ShortVariable: Avoid variables with short names like c
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="IfElseStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifelsestmtsmustusebraces" priority="3">
+IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="IfElseStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifelsestmtsmustusebraces" priority="3">
+IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="16" endline="17" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="16" endline="17" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="CarInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+</file>
+<file name="src/main/java/ec/edu/espol/workshops/second/Customer.java">
+<violation beginline="3" endline="64" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="3" endline="64" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="5" endline="5" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="5" endline="5" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="6" endline="6" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="8" endline="8" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="AvoidFieldNameMatchingMethodName" ruleset="Error Prone" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#avoidfieldnamematchingmethodname" priority="3">
+AvoidFieldNameMatchingMethodName: Field isMarried has the same name as a method
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="AvoidFieldNameMatchingMethodName" ruleset="Error Prone" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#avoidfieldnamematchingmethodname" priority="3">
+AvoidFieldNameMatchingMethodName: Field isMarried has the same name as a method
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Field comments are required
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#immutablefield" priority="3">
+ImmutableField: Private field 'license' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#immutablefield" priority="3">
+ImmutableField: Private field 'license' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="13" endline="20" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="13" endline="20" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'isMarried' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'isMarried' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'license' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'license' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'sex' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'sex' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="SignatureDeclareThrowsException" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#signaturedeclarethrowsexception" priority="3">
+SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+</violation>
+<violation beginline="14" endline="15" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="14" endline="15" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'age' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'sex' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'sex' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'upperCaseSex' could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+LocalVariableCouldBeFinal: Local variable 'upperCaseSex' could be declared final
+</violation>
+<violation beginline="36" endline="37" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="36" endline="37" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#ifstmtsmustusebraces" priority="3">
+IfStmtsMustUseBraces: Avoid using if statements without curly braces
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="ControlStatementBraces" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+ControlStatementBraces: This statement should have braces
+</violation>
+<violation beginline="40" endline="42" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="40" endline="42" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="44" endline="46" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="44" endline="46" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'isMarried' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'isMarried' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="50" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="48" endline="50" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'lowerBound' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'lowerBound' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'upperBound' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'upperBound' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="62" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="60" endline="62" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Customer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+</file>
+<file name="src/main/java/ec/edu/espol/workshops/second/Validator.java">
+<violation beginline="3" endline="8" begincolumn="0" endcolumn="0" rule="ClassNamingConventions" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#classnamingconventions" priority="1">
+ClassNamingConventions: The utility class name 'Validator' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+<violation beginline="3" endline="8" begincolumn="0" endcolumn="0" rule="ClassNamingConventions" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_apex_codestyle.html#classnamingconventions" priority="1">
+ClassNamingConventions: The utility class name 'Validator' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+<violation beginline="3" endline="8" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="3" endline="8" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Class comments are required
+</violation>
+<violation beginline="3" endline="8" begincolumn="0" endcolumn="0" rule="UseUtilityClass" ruleset="Design" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="8" begincolumn="0" endcolumn="0" rule="UseUtilityClass" ruleset="Design" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="4" endline="7" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="4" endline="7" begincolumn="0" endcolumn="0" rule="CommentRequired" ruleset="Documentation" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+CommentRequired: Public method and constructor comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'license' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ec.edu.espol.workshops.second" class="Validator" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+MethodArgumentCouldBeFinal: Parameter 'license' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>

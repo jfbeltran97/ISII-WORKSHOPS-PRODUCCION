@@ -10,9 +10,9 @@ public class Customer {
 	private boolean isMarried;
 	private String license;
 	
-	public Customer(int age, char sex, boolean isMarried, String license) throws Exception {
+	public Customer(int age, char sex, boolean isMarried, String license) throws IllegalArgumentException {
 		if (age > MAX_AGE || !Validator.isLicenseValid(license))
-			throw new Exception("Customer data is not valid");
+			throw new IllegalArgumentException("Customer data is not valid");
 		this.age  = age;
 		this.sex = sex;
 		this.isMarried = isMarried;
