@@ -18,8 +18,8 @@ public class Customer {
     private String license;
 
     public Customer(int age, char sex, boolean isMarried, String license) {
-        this.age = age;
-        this.sex = sex;
+        this.setAge(age);
+        this.setSex(sex);
         this.isMarried = isMarried;
         this.license = license;
     }
@@ -111,6 +111,6 @@ public class Customer {
      * @return true if the customer meets the requirements, false otherwise.
      */
     public boolean isValid() {
-        return this.age <= MAX_AGE && Validator.isLicenseValid(this.license);
+        return (this.sex == MALE || this.sex == FEMALE) && this.age >= 18 && this.age <= MAX_AGE && Validator.isLicenseValid(this.license);
     }
 }

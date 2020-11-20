@@ -69,4 +69,53 @@ class CalculatePremiumTest {
         Customer c = new Customer(25, male, false, license);
         assertEquals(500, CarInsurance.calculatePremium(c));
     }
+    
+    //SystemTesting
+    @Test
+    void tc1() {
+        Customer c = new Customer(20, male, false, license);
+        assertEquals(2000, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void tc2() {
+        Customer c = new Customer(50, female, true, license);
+        assertEquals(200, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void tc3() {
+        Customer c = new Customer(50, 'H', true, license);
+        assertEquals(-1, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void tc4() {
+        Customer c = new Customer(50, female, T, license);
+        assertEquals(-1, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void tc5() {
+        Customer c = new Customer(-1, female, true, license);
+        assertEquals(-1, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void tc6() {
+        Customer c = new Customer(15, female, true, license);
+        assertEquals(-1, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void tc7() {
+        Customer c = new Customer(100, female, true, license);
+        assertEquals(-1, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void tc8() {
+        Customer c = new Customer(100, female, true, "1711129210");
+        assertEquals(-1, CarInsurance.calculatePremium(c));
+    }
 }
