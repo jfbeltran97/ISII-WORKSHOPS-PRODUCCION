@@ -118,4 +118,18 @@ class CalculatePremiumTest {
         Customer c = new Customer(100, female, true, "1711129210");
         assertEquals(-1, CarInsurance.calculatePremium(c));
     }
+    
+    //Boundary values
+    @Test
+    void tcbv1() {
+        Customer c = new Customer(17, female, true, "1711129210");
+        assertEquals(-1, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void tcbv2() {
+        Customer c = new Customer(44, female, true, "1711129210");
+        assertEquals(-1, CarInsurance.calculatePremium(c));
+    }
+    
 }
