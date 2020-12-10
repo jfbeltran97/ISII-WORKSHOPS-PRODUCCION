@@ -10,7 +10,7 @@ public final class CarInsurance {
   /**
    * Base value from which the premium is calculated.
    */
-  public static final int BASE = 500;
+  public static final int BASE = 600;
 
   private CarInsurance() {
 
