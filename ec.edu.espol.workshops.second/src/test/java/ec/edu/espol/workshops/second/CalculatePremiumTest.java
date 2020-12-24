@@ -10,40 +10,40 @@ class CalculatePremiumTest {
     char female = 'F';
 
     @Test
-    void minorMaleWithLicenseShouldReturn2000() {
+    void minorMaleWithLicenseShouldReturn2100() {
         Customer c = new Customer(16, male, false, license);
-        assertEquals(2000, CarInsurance.calculatePremium(c));
+        assertEquals(2100, CarInsurance.calculatePremium(c));
     }
     
     @Test
-    void minorFemaleWithLicenseShouldReturn300() {
+    void minorFemaleWithLicenseShouldReturn400() {
         Customer c = new Customer(16, female, false, license);
-        assertEquals(300, CarInsurance.calculatePremium(c));
+        assertEquals(400, CarInsurance.calculatePremium(c));
     }  
     
     
     @Test
-    void divorced50YearOldMaleWithLicenseShouldReturn400() {
+    void divorced50YearOldMaleWithLicenseShouldReturn500() {
         Customer c = new Customer(50, male, false, license);
+        assertEquals(500, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void married50YearOldFemaleWithLicenseShouldReturn300() {
+        Customer c = new Customer(50, female, true, license);
+        assertEquals(300, CarInsurance.calculatePremium(c));
+    }
+    
+    @Test
+    void divorced80YearOldFemaleWithLicenseShouldReturn400() {
+        Customer c = new Customer(80, female, false, license);
         assertEquals(400, CarInsurance.calculatePremium(c));
     }
     
     @Test
-    void married50YearOldFemaleWithLicenseShouldReturn200() {
-        Customer c = new Customer(50, female, true, license);
-        assertEquals(200, CarInsurance.calculatePremium(c));
-    }
-    
-    @Test
-    void divorced80YearOldFemaleWithLicenseShouldReturn300() {
-        Customer c = new Customer(80, female, false, license);
-        assertEquals(300, CarInsurance.calculatePremium(c));
-    }
-    
-    @Test
-    void married30YearOldMaleWithLicenseShouldReturn300() {
+    void married30YearOldMaleWithLicenseShouldReturn400() {
         Customer c = new Customer(30, male, true, license);
-        assertEquals(300, CarInsurance.calculatePremium(c));
+        assertEquals(400, CarInsurance.calculatePremium(c));
     }
     
     @Test
@@ -59,14 +59,14 @@ class CalculatePremiumTest {
     }
     
     @Test
-    void married20YearOldFemaleWithLicenseShouldReturn300() {
+    void married20YearOldFemaleWithLicenseShouldReturn400() {
         Customer c = new Customer(20, female, true, license);
         assertEquals(300, CarInsurance.calculatePremium(c));
     }
     
     @Test
-    void divorced25YearOldMaleWithLicenseShouldReturn500() {
+    void divorced25YearOldMaleWithLicenseShouldReturn600() {
         Customer c = new Customer(25, male, false, license);
-        assertEquals(500, CarInsurance.calculatePremium(c));
+        assertEquals(600, CarInsurance.calculatePremium(c));
     }
 }
