@@ -28,6 +28,7 @@ public final class CarInsurance {
     }
     int premium = BASE;
     premium -= 100 * (c.ageBetween(45, 65) ? 1 : 0);
+    premium -= 100 * (c.isMale() && c.ageBetween(25, 45) ? 1 : 0);
     premium -= 200 * (c.isFemale() || c.isMarried() ? 1 : 0);
     premium += 1500 * (c.isMale() && !c.isMarried() && c.getAge() < 25 ? 1 : 0);
     return premium;
